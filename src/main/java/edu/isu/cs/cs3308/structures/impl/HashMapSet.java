@@ -2,13 +2,10 @@
 // Isaac Griffith
 // CS 3308
 // March - 27 - 2019
-// My own version of a Set as a modified form of a HashMap
+// My own implementation of a Set as a modified form of a HashMap
 package edu.isu.cs.cs3308.structures.impl;
-
 import edu.isu.cs.cs3308.structures.Set;
 import java.util.Iterator;
-
-
 
 public class HashMapSet<T> implements Set<T> {
     @Override
