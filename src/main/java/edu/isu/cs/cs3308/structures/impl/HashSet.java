@@ -2,12 +2,13 @@
 // Isaac Griffith
 // CS 3308
 // March - 27 - 2019
-// My own implementation of a Set as a modified form of a HashMap
+// My own implementation of a Set as a modified form of a HashMap, A hash set!
 package edu.isu.cs.cs3308.structures.impl;
 import edu.isu.cs.cs3308.structures.Set;
 import java.util.Iterator;
 
-public class HashMapSet<T> implements Set<T> {
+public class HashSet<T> implements Set<T> {
+    // Add element e to the set, unless e already exists in the set or e is null.
     @Override
     public void add(T e) {
 
