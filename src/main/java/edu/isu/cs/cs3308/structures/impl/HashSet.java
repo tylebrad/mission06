@@ -68,6 +68,15 @@ public class HashSet<T> implements Set<T> {
     // @return : true if e is a member of this set, false if not or e is null.
     @Override
     public boolean contains(T e) {
+        int index = hashFunction(e.hashCode());
+        Entry<T> current = buckets[index];
+
+        while (current != null){
+            if(current.key.equals(e))
+                return true;
+            current = current.next;
+        }
+
         return false;
     }
 
