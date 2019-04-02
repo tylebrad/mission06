@@ -11,7 +11,4 @@ import java.util.List;
 
 public class Driver<T> {
     public String userInput;
-    public List<T> fMe;
-    public void parooseInput(String input){
-       fMe = SpellCheck.check(input);    }
 }
